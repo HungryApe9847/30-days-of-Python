@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Orbitron';
+  src: url('Orbitron.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(45deg, #0B1020, #3B2042);
+  background-color: #0B1020;
+  color: #FFFFFF;
+  font-family: "Orbitron";
+  text-align: center;
+}
+a {
+  color: #FFFFFF
+}
+.transparent {
+   opacity: 0.2;
+}
