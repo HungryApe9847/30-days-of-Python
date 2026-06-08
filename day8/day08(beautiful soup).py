@@ -5,7 +5,7 @@ with open("index.html", "r", encoding= "utf-8") as f:
     print("\n" * 2)
     print("Use this for reference to find elements! (this is the index of my own site, but changed a bit so it won't bug.)")
 soup = BeautifulSoup(html, "html.parser")
-element = input("What element are you looking for?").lower().strip()
+element = input("What element are you looking for? ").lower().strip()
 found = soup.find_all(element)
 if element.isidentifier():
     if found:
