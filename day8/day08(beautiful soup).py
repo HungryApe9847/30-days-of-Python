@@ -7,10 +7,13 @@ with open("index.html", "r", encoding= "utf-8") as f:
 soup = BeautifulSoup(html, "html.parser")
 element = input("What element are you looking for?").lower().strip()
 found = soup.find_all(element)
-if found:
-    for element in found:
-        print(element)
-    print("\n" * 2)
-    print("Thanks for using this service.")
+if element.isidentifier():
+    if found:
+        for element in found:
+            print(element)
+        print("\n" * 2)
+        print("Thanks for using this service.")
+    else:
+        print("No element found!")
 else:
     print("No element found!")
