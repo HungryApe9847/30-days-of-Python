@@ -15,4 +15,5 @@ def main():
     new_data.to_csv("data.csv", mode="a", index=False, header=False)
     print(f"Hello, {args.name}!")
     print()
-main()
+if __name__ == "__main__":
+    main()
