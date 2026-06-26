@@ -4,4 +4,5 @@ day20/.env
 *.json
 day24/random_size.txt
 *.csv
-day25/data.csv
+*.env
+day26/.env
