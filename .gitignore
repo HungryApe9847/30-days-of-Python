@@ -6,3 +6,4 @@ day24/random_size.txt
 *.csv
 *.env
 day26/.env
+*.xlsx
